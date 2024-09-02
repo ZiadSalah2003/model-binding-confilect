@@ -1,0 +1,13 @@
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace ProjectDotNet7
+{
+	public class Test1
+	{
+		[FromQuery]
+		public string Email { get; set; }
+		public string Password { get; set; }
+		public string FirstName { get; set; }
+		public string LastName { get; set; }
+	}
+}
